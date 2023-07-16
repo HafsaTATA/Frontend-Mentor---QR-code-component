@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @font-face {
+  font-family:MyCustomFont;
+  src: url('C:/Users/hp/Documents/FONTS/Outfit-VariableFont_wght.ttf') ;
+}
+
+    body{
+      background-color:hsl(212, 45%, 89%) ;
+      
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .container{
+      background-color:  hsl(0, 0%, 100%);
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 8%; ;
+      margin-bottom: 8%;
+      width: 17%;
+      height: 325px;
+      border-radius:10px ;
+      padding-top: 11px;
+     
+    }
+    img{
+      display: block;
+      width:90%;
+      border-radius:7px ;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+    .firstText,.secondText{
+      text-align: center;
+      font-family: MyCustomFont;
+      margin-inline: 15px;      
+    }
+    .secondText{
+      font-weight: 400;
+      color: hsl(220, 15%, 55%);
+      margin-bottom: 30px;
+      font-size: 11px;
+      margin-bottom: 10px;
+      margin-top: -5px;
+      
+
+    }
+    .firstText{
+      color: hsl(218, 44%, 22%);
+      font-size: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="images/image-qr-code.png" alt="QR CODE" title="Scan this QR code to visit Frontend Mentor "/>
+  <p class="firstText"><strong>Improve your front-end skills by building projects</strong></p>
+
+  <p class="secondText">Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p> 
+  </div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.linkedin.com/in/hafsa-tata/" target="_blank">TATA Hafsa</a>.
+  </div>
+</body>
+</html>
